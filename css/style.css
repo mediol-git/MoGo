@@ -83,6 +83,7 @@ a {
   color: #95E1D3;
   text-transform: none;
   font-size: 30px;
+  margin-bottom: 0;
 }
 
 .header .nav__menu {
