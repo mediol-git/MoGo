@@ -381,5 +381,6 @@ a {
 
 .footer .subscribe input[type=submit]:hover {
   opacity: .8;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
