@@ -206,6 +206,7 @@ a {
         }
         img {
             width: 100%;
+            display: block;
         }
     }
     .social {
@@ -249,7 +250,7 @@ a {
         border-top: 1px solid #B6B6B6;
         padding: 10px 0;
         @media (max-width: 768px) {
-            flex-direction: column;
+            flex-direction: column-reverse;
             justify-content: center;
         }
         .copyright {
@@ -263,6 +264,11 @@ a {
     }
     .subscribe {
         display: flex;
+        @media (max-width: 567px) {
+            flex-direction: column;
+            width: 80%;
+            margin-bottom: 10px;
+        }
         .form__input,
         .form__input:focus {
             outline: none;
@@ -270,6 +276,9 @@ a {
         input[type=email] {
             border: 1px solid #B6B6B6;
             padding: 11px 10px;
+            @media (max-width: 567px) {
+                margin-bottom: 10px;
+            }
         }
         input[type=submit] {
             background: $buttonBg;

@@ -1,1 +1,1 @@
-# MoGo - test project - a landing in two section
+# MoGo - a landing in two section for Photografers team
