@@ -159,7 +159,15 @@ a {
 
 .title__row .title {
   font-size: 30px;
+  line-height: 36px;
   margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .title__row .title {
+    font-size: 22px;
+    line-height: 24px;
+  }
 }
 
 .title__row .title__line {
@@ -401,3 +409,4 @@ a {
   opacity: .8;
   cursor: pointer;
 }
+/*# sourceMappingURL=style.css.map */
